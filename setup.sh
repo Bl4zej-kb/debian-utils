@@ -9,7 +9,8 @@ sudo curl -fsSL -o get-platformio.py https://raw.githubusercontent.com/platformi
 sudo python3 get-platformio.py
 sudo rm get-platformio.py
 
-sudo apt remove firefox firefox-esr
+sudo apt purge firefox firefox-esr gnome-calendar gnome-connections gnome-contacts evolution gnome-maps seahorse malcontent gnome-tour -y
+sudo apt autoremove -y
 
 sudo flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 sudo systemctl enable --now snapd.socket
