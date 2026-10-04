@@ -1,6 +1,11 @@
+add-apt-repository contrib
+add-apt-repository non-free
+add-apt-repository non-free-firmware
+
+
 sudo apt update
 
-sudo apt install -y curl gnome-software gnome-software-plugin-flatpak gnome-software-plugin-snap vim git fastfetch ffmpeg snapd flatpak gnome-tweaks qbittorrent gnome-shell-extension-desktop-icons-ng gcc g++ git-filter-repo python3 pip gnome-shell-extension-manager printer-driver-escpr pkg-config 
+sudo apt install -y curl gnome-software gnome-software-plugin-flatpak gnome-software-plugin-snap vim git fastfetch ffmpeg snapd flatpak gnome-tweaks qbittorrent gnome-shell-extension-desktop-icons-ng gcc g++ git-filter-repo python3 pip gnome-shell-extension-manager printer-driver-escpr pkg-config
 
 sudo apt update
 
@@ -22,8 +27,3 @@ sudo gnome-extensions enable ding@rastersoft.com
 sudo apt full-upgrade -y
 
 dconf load /org/gnome/ < gnome-settings.conf
-
-echo ""
-echo ""
-echo "Add non-free, contrib, non-free-firmware to somewhere in /etc/apt and then reboot"
-
