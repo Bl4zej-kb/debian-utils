@@ -5,7 +5,7 @@ add-apt-repository non-free-firmware
 
 sudo apt update
 
-sudo apt install -y curl gnome-software gnome-software-plugin-flatpak gnome-software-plugin-snap vim git fastfetch ffmpeg snapd flatpak gnome-tweaks qbittorrent gnome-shell-extension-desktop-icons-ng gcc g++ git-filter-repo python3 pip gnome-shell-extension-manager printer-driver-escpr pkg-config
+sudo apt install -y curl gnome-software gnome-software-plugin-flatpak gnome-software-plugin-snap vim git fastfetch ffmpeg snapd flatpak gnome-tweaks qbittorrent gnome-shell-extension-desktop-icons-ng gcc g++ git-filter-repo python3 pip gnome-shell-extension-manager printer-driver-escpr pkg-config escputil
 
 sudo apt update
 
